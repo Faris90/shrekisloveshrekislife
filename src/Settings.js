@@ -8,12 +8,12 @@ const value = Object.seal({
     listenerMaxConnectionsPerIP: -1,
     listenerMinLegacyProtocol: 1,
     listenerMaxLegacyProtocol: 18,
-    listeningPort: 443,
+    listeningPort: 3000,
 
     serverUpdateFrequency: 25,
-    serverName: "An unnamed server",
+    serverName: "ReroAgar FFA Server",
     serverGamemode: "FFA",
-    serverChatEnabled: true,
+    serverChatEnabled: false,
 
     worldMapX: 0,
     worldMapY: 0,
@@ -25,7 +25,7 @@ const value = Object.seal({
     worldSafeSpawnFromEjectedChance: 0.8,
     worldPlayerDisposeDelay: 25 * 60,
 
-    worldPlayerBotsPerWorld: 0,
+    worldPlayerBotsPerWorld: 10,
     worldMinionsPerPlayer: 0,
     worldMaxPlayers: 50,
     worldMaxCount: 2,
@@ -38,8 +38,8 @@ const value = Object.seal({
     minionEnableQBasedControl: true,
 
     pelletMinSize: 10,
-    pelletMaxSize: 20,
-    pelletGrowTicks: 25 * 60,
+    pelletMaxSize: 32,
+    pelletGrowTicks: 1,
     pelletCount: 1000,
 
     virusMinCount: 30,
@@ -49,10 +49,10 @@ const value = Object.seal({
     virusPushing: false,
     virusSplitBoost: 780,
     virusPushBoost: 120,
-    virusMonotonePops: false,
+    virusMonotonePops: true,
 
-    ejectedSize: 43,
-    ejectingLoss: 48,
+    ejectedSize: 48,
+    ejectingLoss: 43,
     ejectDispersion: 0.3,
     ejectedCellBoost: 780,
 
@@ -71,11 +71,11 @@ const value = Object.seal({
     playerMaxNameLength: 16,
     
     playerMinSize: 32,
-    playerSpawnSize: 32,
+    playerSpawnSize: 100,
     playerMaxSize: 1500,
     playerMinSplitSize: 60,
     playerMinEjectSize: 60,
-    playerMaxCells: 16,
+    playerMaxCells: 64,
 
     playerMoveMult: 1,
     playerSplitBoost: 780,
@@ -83,7 +83,7 @@ const value = Object.seal({
     playerNoMergeDelay: 15,
     /** @type {"old" | "new"} */
     playerMergeVersion: "old",
-    playerMergeTime: 30,
+    playerMergeTime: 0.1,
     playerMergeTimeIncrease: 0.02,
     playerDecayMult: 0.001
 });
