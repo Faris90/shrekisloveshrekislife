@@ -13,7 +13,7 @@ const value = Object.seal({
     serverUpdateFrequency: 25,
     serverName: "ReroAgar FFA Server",
     serverGamemode: "FFA",
-    serverChatEnabled: false,
+    serverChatEnabled: true,
 
     worldMapX: 0,
     worldMapY: 0,
