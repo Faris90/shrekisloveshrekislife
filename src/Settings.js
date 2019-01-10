@@ -7,12 +7,12 @@ const value = Object.seal({
     listenerMaxClientDormancy: 1000 * 60,
     listenerMaxConnectionsPerIP: -1,
     listenerMinLegacyProtocol: 1,
-    listenerMaxLegacyProtocol: 18,
+    listenerMaxLegacyProtocol: 19,
     listeningPort: 3000,
 
     serverUpdateFrequency: 25,
-    serverName: "ReroAgar FFA Server",
-    serverGamemode: "FFA",
+    serverName: "Shrek's Swamp",
+    serverGamemode: "Teams",
     serverChatEnabled: false,
 
     worldMapX: 0,
@@ -37,9 +37,9 @@ const value = Object.seal({
     minionEnableERTPControls: false,
     minionEnableQBasedControl: true,
 
-    pelletMinSize: 10,
+    pelletMinSize: 22.36,
     pelletMaxSize: 32,
-    pelletGrowTicks: 1,
+    pelletGrowTicks: 100,
     pelletCount: 1000,
 
     virusMinCount: 30,
@@ -57,7 +57,7 @@ const value = Object.seal({
     ejectedCellBoost: 780,
 
     mothercellSize: 149,
-    mothercellCount: 0,
+    mothercellCount: 5,
     mothercellPassiveSpawnChance: 0.05,
     mothercellActiveSpawnSpeed: 1,
     mothercellPelletBoost: 90,
